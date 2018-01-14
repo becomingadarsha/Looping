@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	int a=0,b=1,c,num,i=0;
+	printf("how many numbers to be printed?");
+	scanf("%d",&num);
+	while(i<num)
+	{
+	c=a+b;
+	printf("%d\t",c);
+	a=b;
+	b=c;
+	i++;
+}
+return 0;
+}
