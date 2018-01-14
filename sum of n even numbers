@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	int i=1,num,sum=0;
+	printf("Display even numbers untill:");
+	scanf("%d",&num);
+	printf("The even numbers and their sum untill %d are:",num);
+	while(i<=num)
+	{
+	printf("%d\n",++i);
+	i=i+1;
+	sum=sum+i;
+}
+printf("Sum is %d",sum);
+return 0;
+}
