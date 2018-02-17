@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+	int i=219,j=255,k,l,m;
+	for(k=1;k<=8;k++)
+	{
+		for(l=1;l<=4;l++)
+		{
+			printf("%c%c%c%c",i,i,j,j);
+		}
+		m=i;
+		i=j;
+		j=m;
+		printf("\n");	
+	}
+	return 0;
+}
+
+
+use ASCII 219 for white and 255 for black square box
