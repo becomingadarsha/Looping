@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int a,b,y;
+	printf("Enter value of a");
+	scanf("%d",&a);
+	printf("Enter value of b");
+	scanf("%d",&b);
+	y=pow(a,b);
+	printf("Value of y is %d",y);
+	return 0;
+}
+
+Write a program to find the value of given base to the given power. [y=a^b]
