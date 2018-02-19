@@ -1,24 +1,16 @@
 #include<stdio.h>
 int main()
 {
-	int i,j,k,l,c=6,m;
-	for(i=1;i<=5;i++)
+	int i,j,n;
+	printf("How many numbers?");
+	scanf("%d",&n);
+	for(i=1;i<=n;i++)
 	{
-		for(j=1;j<=i;j++)
+		for(j=1;j<=10;j++)
 		{
-			printf(" ");
+			printf("%d\t",i*j);
 		}
-		c=c-1;
-		for(k=1;k<=c;k++)
-		{
-			printf("%d",k);
-		}
-		for(m=c;m>=1;m--)
-		{
-			if((m-1)!=0)
-		     printf("%d",m-1);
-	    }
 		printf("\n");
-		
 	}
+	return 0;
 }
