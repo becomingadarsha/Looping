@@ -4,23 +4,22 @@ int main()
 	char i,j,k,l;
 	for(i=1;i<=5;i++)
 {
-	for(j=65;j<=69-i;j++)
+	for(j=65;j<=70-i;j++)
 	{
 		printf("%c",j);
 	
 	}
-	for(k=0;k<i;k++)
+	for(k=1;k<i;k++)
 	{
 		printf("  ");
 	}
-	for(l=69-i;l>=65;l--)
+	for(l=70-i;l>=65;l--)
 	{
 		printf("%c",l);
 	}
 	printf("\n");
 	}
 }
-
 
 Output : 
 ABCDEEDCBA
