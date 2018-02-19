@@ -2,7 +2,7 @@
 int main()
 {
 	int i=1,num,sum=0;
-	printf("Enter number of numbers:");
+	printf("Display sum of squares of number upto=");
 	scanf("%d",&num);
 	while(i<=num)
 	{
