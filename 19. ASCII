@@ -1,0 +1,14 @@
+#include <stdio.h> 
+int main() 
+{ 
+int i;
+ printf("Alphabets from A - J are\n");
+
+for(i=65; i<=74; i++)
+ { 
+printf("%c\t", i); 
+} 
+ }
+ 
+ 
+ Output : A  B  C  D  E  F  G  H  I  J
