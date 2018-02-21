@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int i,n,j=0,sum=0;
+printf("Enter the limit of series:\n");
+scanf("%d",&n);
+printf("\nThe series is:\n");
+for(i=1;i<=n;i++)
+{
+	j+=11;
+	sum+=j;
+	printf("%d + ",j);
+}
+	printf("\n");
+printf("The sum of the series is %d.",sum);
+return 0;
+}
+
