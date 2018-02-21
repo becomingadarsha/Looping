@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+int main()
+{
+	int n,i,sq,sum=0;
+	printf("Enter the limit of series:\n");
+	scanf("%d",&n);
+	printf("\n\nThe series is:\n");
+	for(i=1;i<=n;i++)
+	{
+		sq=pow(i,i);
+		sum+=sq;
+		printf("%d + ",sq);
+	}
+	printf("\n\nThe sum of series is %d",sum);
+	return 0;
+}
+
+
+QUESTION: 
+	1^1+2^2+3^3+4^4+…. Upto nth terms
