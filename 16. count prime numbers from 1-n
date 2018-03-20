@@ -21,6 +21,6 @@ void main()
             }
           
     }
-    printf("The number of even numbers between 1 to %d is %d",n,count);
+    printf("The number of prime numbers between 1 to %d is %d",n,count);
     getch();
 }
